@@ -1,0 +1,15 @@
+{
+    "verbose": true,
+    "ignore": [
+        "node_modules",
+        ".git"
+    ],
+    "watch": [
+        "*.js",
+        "views/*"
+    ],
+    "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "app:*"
+    }
+}
